@@ -1,0 +1,24 @@
+.navigation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #13183f;
+  padding: 2.2rem;
+}
+
+.footer__btn {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  transition: 0.4s;
+
+  &:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  }
+}
