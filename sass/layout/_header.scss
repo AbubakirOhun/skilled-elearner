@@ -1,11 +1,11 @@
 .header {
-  padding: 2.4rem;
+  padding: 2.8rem;
 }
 
 .header__container {
   background: url(../images/png/a-woman.png);
   background-repeat: no-repeat;
-  background-position: right -270% top 120%;
+  background-position: right -280% top 150%;
 }
 
 .navigation-wrapper {
@@ -16,7 +16,7 @@
 
 .header__btn {
   background-color: $secondary-text-color;
-  margin-right: 10rem;
+  margin-right: 11rem;
 
   &:hover {
     background-color: #666ca3;
@@ -24,16 +24,16 @@
 }
 
 .hero {
-  padding-top: 14.8rem;
+  padding-top: 11rem;
   padding-bottom: 25rem;
 }
 
 .hero__info {
-  max-width: 51rem;
+  max-width: 50rem;
 }
 
 .hero__title {
-  padding-bottom: 2.9rem;
+  padding-bottom: 3rem;
 }
 
 .hero__description {
@@ -42,7 +42,7 @@
 
 .hero__btn {
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
-  border-radius: 31.5px;
+  border-radius: 32px;
 
   &:hover {
     background: linear-gradient(
@@ -50,6 +50,6 @@
         rgba(255, 255, 255, 0.5),
         rgba(255, 255, 255, 0.5)
       ),
-      linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+      linear-gradient(180deg, #ff6f48 0%, #ec1da0 100%);
   }
 }
